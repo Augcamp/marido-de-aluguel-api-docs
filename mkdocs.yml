@@ -1,0 +1,37 @@
+repo_url: https://github.com/Augcamp/marido-de-aluguel-api-docs
+site_name: " Marido de Aluguel"
+nav:
+  - Home: index.md
+
+theme:
+  name: material
+  language: pt-BR
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+      primary: orange
+      accent: deep orange
+
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+      primary: orange
+      accent: deep orange
+
+    - scheme: high-contrast
+      primary: orange
+      accent: yellow
+      toggle:
+        icon: material/weather-cloudy-alert
+        name: Switch to high contrast
+  logo: assets/logo.png
+  extra_css: [stylesheets/extra.css]
+
+markdown_extensions:
+  - attr_list
